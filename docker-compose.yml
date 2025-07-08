@@ -11,6 +11,7 @@ services:
       - DB_PASSWORD=password
       - DB_NAME=judge0
       - REDIS_HOST=redis
+      - ENABLED_LANGUAGES=63,74,71,62
     depends_on:
       - postgres
       - redis
